@@ -221,3 +221,9 @@ input, select, button {
 		opacity: 1;
    }
 }
+
+@media (max-width: 920px) {
+    .modal__img {
+        max-width: 70%;
+    }
+}
