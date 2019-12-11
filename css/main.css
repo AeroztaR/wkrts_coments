@@ -108,6 +108,21 @@ input, select, button {
 	padding-bottom: 5px;
 }
 
+.comment__author--online {
+    position: relative;
+}
+
+.comment__author--online::after {
+    content: '';
+    display: inline-block;
+    position: relative;
+    height: 9px;
+    width: 9px;
+    border-radius: 50%;
+    background-color: #7AF87B;
+    margin-left: 5px;
+}
+
 .comment__date {
 	display: inline-block;
 	font-size: 12px;
